@@ -1,0 +1,302 @@
+/* .checkout-pc {
+    width: 100vw;
+    max-height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12vh;
+}
+
+.layout-pc {
+    width: 90vw;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.checkout-pc .review-pc {
+    margin: 0px;
+}
+
+.contact-title-pc {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.order-details-pc {
+    height: 90%;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.checkout-pc .duolingo-details-pc {
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.duolingo-details-pc h3 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    background-color: rgb(12, 12, 132);
+
+}
+
+.duolingo-details-pc span {
+    color: rgb(234, 255, 0);
+}
+
+.duolingo-details-pc ol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: inside;
+    padding: 0px;
+    font-weight: bold;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    width: 75%;
+}
+
+.duolingo-details-pc li {
+    padding-bottom: 10px;
+
+}
+
+.payment-pc {
+    width: 25vw;
+    background-color: aqua;
+} */
+
+
+.checkout-pc {
+    width: 100vw;
+    min-height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 7vh 0vh;
+}
+
+.review-pc {
+    /* width: 100vw; */
+    /* max-width: 1200px; */
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(12, 12, 132);
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.layout-pc {
+    width: 80vw;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* gap: 5vw; */
+}
+
+/* Left: Order details */
+.order-details-pc {
+    flex: 0.75;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    padding-bottom: 0px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.contact-title-pc {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(12, 12, 132);
+    margin-bottom: 0.5rem;
+}
+
+.contact-title-pc p {
+    margin: 0px;
+}
+
+.details-row-pc {
+    border-top: 1px solid #d3d3d3b2;
+    border-bottom: 1px solid #d3d3d3b2;
+    padding: 15px 0px;
+}
+
+.customer-details-pc p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.email-update-pc {
+    font-size: 0.85rem;
+    color: #555;
+    text-align: center;
+}
+
+.main-details-pc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Duolingo box */
+.duolingo-details-pc {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    margin-top: 10px;
+    width: 95%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+
+.duolingo-details-pc h3 {
+    background-color: rgb(12, 12, 132);
+    color: #fff;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.duolingo-details-pc span {
+    color: #ffeb3b;
+}
+
+.duolingo-details-pc ol {
+    padding: 1rem;
+    margin: 0;
+    list-style: decimal;
+    font-weight: 600;
+    text-align: left;
+}
+
+.duolingo-details-pc li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.order-detail-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Right: Payment box */
+.payment-pc {
+    width: 30%;
+    min-width: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    /* margin-right: 100px; */
+}
+
+.payment-pc h2 {
+    font-size: 1.2rem;
+    color: rgb(12, 12, 132);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.amount-to-pay-pc {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.amount-to-pay-pc span {
+    font-weight: bold;
+    color: rgb(12, 12, 132);
+}
+
+/* Info + Buttons below */
+.checkout-info-pc {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #444;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.edit-btn-pc {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(12, 12, 132);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn-pc:hover {
+    background: rgb(9, 9, 100);
+}
+
+.dont-pc {
+    /* background: #d32f2f; */
+    color: #ff3b3b;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+
+@media(max-width:1100px) {
+    .layout-pc {
+        width: 95vw;
+        gap: 50px;
+    }
+
+    .order-details-pc {
+        flex: 1;
+    }
+
+    .payment-pc {
+        min-width: 250px;
+    }
+
+
+}

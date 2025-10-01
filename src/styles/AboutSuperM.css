@@ -1,0 +1,134 @@
+.aboutsuper {
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: rgb(51, 60, 141); */
+
+    background-color: var(--color-secondary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.aboutsuper strong {
+    color: rgb(30, 255, 0);
+}
+
+.aboutsuper header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.aboutsuper header h2 {
+    width: 100vw;
+    font-size: clamp(5.5vw, 6.5vw, 6.75vw);
+
+}
+
+.aboutsuper header p {
+    width: 87.5%;
+    margin: 0px 0px 15px 0px;
+    font-size: clamp(0.8rem, 1vw + 0.9rem, 1.1rem);
+
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.css-1f8sh1y {
+
+    width: 80vw !important;
+    /* background-color: rgba(19, 24, 76); */
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    margin-bottom: 0px;
+    /* border: 2px solid rgb(255, 255, 0); */
+
+
+}
+
+.css-1m9128y {
+    margin-bottom: 20px;
+
+
+}
+
+.feature-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex: 1;
+    height: 45.5vh !important;
+    min-height: 40vh !important;
+
+}
+
+
+
+.feature-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 10px;
+    /* background-color: rgba(0, 0, 0, 0.263); */
+    /* color: black; */
+    /* height: 30%; */
+
+
+}
+
+.feature-title {
+    text-align: center;
+    font-size: clamp(1rem, 1vw + 1rem, 1.2rem);
+}
+
+.feature-des {
+    text-align: center;
+    font-size: clamp(1rem, 1vw + 1rem, 1.3rem);
+    margin-top: 0px;
+
+}
+
+.duogym {
+    width: 100px;
+    height: 100px;
+}
+
+.container .indicator {
+    width: 10px;
+    height: 20px;
+    margin: 0 20px;
+    border-radius: 50%;
+    /* inactive dot */
+    transition: all 0.3s ease;
+    color: white;
+}
+
+/* Active dot with gradient */
+.container .active-indicator {
+    color: rgb(68, 255, 0);
+    transform: scale(1.25);
+}
+
+.view-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}

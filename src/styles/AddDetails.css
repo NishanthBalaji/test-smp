@@ -1,0 +1,442 @@
+.add-details {
+    width: 100vw;
+    min-height: 100vh;
+    max-height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgb(23, 22, 103);
+    color: white;
+}
+
+.add-details-container {
+    margin-top: 5vh;
+}
+
+
+
+
+/* input text color */
+.add-details .input .MuiFilledInput-root {
+    color: rgb(255, 255, 255);
+    border: 1px solid #d900ff6e;
+    border-radius: 10px;
+
+
+}
+
+/* placeholder when  not focused */
+.add-details .input .MuiInputLabel-root {
+    color: rgb(255, 255, 255);
+}
+
+/* placeholder when focused */
+.add-details .input .MuiInputLabel-root.Mui-focused {
+    color: #ffeb58 !important;
+
+}
+
+/* input box border when focused */
+.add-details .input-wrapper .MuiFilledInput-root.Mui-focused {
+    border: 1px solid #ffeb58;
+    border-radius: 10px;
+}
+
+
+
+
+.add-details .input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.add-details .input-wrapper .input {
+    width: 90%;
+    overflow: visible;
+    background-color: rgb(5, 5, 5);
+    border: none;
+}
+
+
+
+.add-details .input {
+    border: none !important;
+    border-radius: 10px;
+    width: 90%;
+
+}
+
+
+
+.common-details {
+    /* border: 1px solid black; */
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.common-details input {
+    width: 90vw;
+}
+
+.common-details p {
+    margin: 0px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.814);
+    font-size: 12px;
+}
+
+.common-title p {
+    font-size: clamp(0.8rem, 1vw + 0.85rem, 1.1rem);
+}
+
+.details {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.details .upto {
+    color: rgb(0, 242, 255);
+    font-weight: bold;
+    margin: 0px;
+    font-size: clamp(0.8rem, 1vw + 0.85rem, 1rem);
+}
+
+.details .note {
+    width: 90%;
+    margin: 5px 0px 15px 0px;
+    text-align: center;
+    color: rgba(249, 249, 249, 0.686);
+    font-size: clamp(0.7rem, 1vw + 0.7rem, 1rem);
+    /* font-weight: bold; */
+}
+
+/* .dont {
+    width: 80%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgba(255, 238, 0, 0.914);
+    font-size: medium;
+
+} */
+
+.user-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.find-username {
+    width: 85vw;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    background-color: rgba(0, 0, 0, 0.452);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.already {
+    width: 80 !important;
+}
+
+.already p {
+    width: 85vw !important;
+    margin: 0px;
+    margin-top: 10px;
+    color: rgb(255, 255, 0);
+    font-size: clamp(0.7rem, 1vw + 0.7rem, 0.95rem);
+    text-align: center;
+}
+
+.find-username span {
+    color: red;
+}
+
+
+.each-user {
+    width: 95vw;
+    /* border: 1px solid black; */
+    height: 23vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.each-user:last-child {
+    padding-bottom: 50px;
+}
+
+.each-user .input {
+    width: 80vw;
+    overflow: hidden !important;
+}
+
+.each-user p {
+    font-weight: bolder;
+    font-size: clamp(0.8rem, 1vw + 0.85rem, 1.2rem);
+    padding-left: 30px;
+}
+
+.each-user button {
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 5px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.user-no {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.user-no p {
+    padding: 0px;
+}
+
+
+
+.mismatch {
+
+    color: red;
+    font-size: 12px !important;
+    text-align: left;
+    padding-left: 0px !important;
+    font-weight: 200 !important;
+    margin-bottom: 0px !important;
+    margin-top: 5px;
+}
+
+.toCheckout-btn {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    /* padding-bottom: 3px; */
+
+}
+
+
+
+.toCheckout-btn .add-user {
+    color: rgba(0, 0, 0, 0.895);
+    font-weight: bold;
+    border: none;
+    background-color: rgb(0, 242, 255);
+
+
+}
+
+.toCheckout-btn .proceed {
+    /* background: #6af780;
+    background: linear-gradient(195deg, rgba(106, 247, 128, 1) 0%, rgba(87, 162, 255, 1) 49%, rgba(196, 79, 255, 1) 89%);
+    font-weight: bolder; */
+    background-color: rgb(255, 238, 0) !important;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: none;
+    box-shadow: none;
+
+}
+
+.toCheckout-btn .proceed:disabled {
+    /* Visible but greyed out */
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: rgba(131, 131, 131, 0.484) !important;
+    color: rgb(197, 197, 197);
+    /* Keep text readable */
+}
+
+
+/* Auto fill*/
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px rgb(0, 0, 0) inset !important;
+    /* Replace white with your input bg color */
+    -webkit-text-fill-color: #ffffff !important;
+    /* Replace with your text color */
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+@media (min-width: 700px) {
+
+    .common-title {
+        padding: 0px;
+    }
+
+    .add-details-container {
+        margin-top: 8vh;
+    }
+
+    .common-details {
+        min-height: 30vh;
+        padding-bottom: 10px;
+    }
+
+    .common-details .input {
+        width: 80vw !important;
+
+    }
+
+    .find-username {
+        width: 50vw;
+        max-width: 600px;
+    }
+
+    .input-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .user-list {
+        width: 100vw;
+    }
+
+    .each-user {
+        width: 40vw;
+        /* border: 1px solid black; */
+        flex: 1;
+
+    }
+
+    .user-no {
+        width: 100% !important;
+    }
+
+
+    .user-grid {
+        width: 100vw;
+        display: grid;
+        place-items: center;
+        padding: 0px 0px 50px 0px !important;
+    }
+
+    .user-grid.users-1 {
+        grid-template-columns: 100vw;
+    }
+
+    .user-grid.users-2 {
+        grid-template-columns: 50vw 50vw;
+    }
+
+    .user-grid.users-3 {
+        grid-template-columns: 50vw 50vw;
+    }
+
+    .user-grid.users-4 {
+        grid-template-columns: 50vw 50vw;
+    }
+
+    .user-grid.users-5 {
+        grid-template-columns: 50vw 50vw;
+    }
+
+    /* .user-grid .each-user:nth-child(5) {
+        grid-column: 1 / -1;
+
+    } */
+
+    .each-user {
+        width: 35vw;
+        /* border: 1px solid black; */
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .each-user:last-child {
+        padding-bottom: 0px;
+    }
+
+    .each-user .input {
+        width: 100% !important;
+        max-width: 400px;
+        overflow: hidden !important;
+
+    }
+
+    .each-user p {
+        font-weight: bolder;
+        font-size: clamp(0.8rem, 1vw + 0.85rem, 1.2rem);
+        /* padding-left: 30px; */
+    }
+
+    .each-user button {
+        margin-left: 10px;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        padding: 5px;
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+    }
+
+
+}
+
+@media (min-width: 1000px) {
+    .user-grid.users-1 {
+        grid-template-columns: 100vw;
+    }
+
+    .user-grid.users-2 {
+        grid-template-columns: 50vw 50vw;
+    }
+
+    .user-grid.users-3 {
+        grid-template-columns: 33.3vw 33.3vw 33.3vw;
+    }
+
+    .user-grid.users-4 {
+        grid-template-columns: 33.3vw 33.3vw 33.3vw;
+    }
+
+    .user-grid.users-5 {
+        grid-template-columns: 33.3vw 33.3vw 33.3vw;
+    }
+
+    .each-user {
+        width: 30vw;
+
+    }
+
+    .user-no {
+        max-width: 400px;
+        width: 100% !important;
+    }
+}

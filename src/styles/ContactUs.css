@@ -1,0 +1,258 @@
+.contactus {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: var(--color-primary);
+}
+
+.contact-title {
+    font-size: clamp(5.5vw, 6.5vw, 6.75vw);
+    font-weight: bolder;
+    margin: 20px 0px;
+    color: white;
+}
+
+.contactus header {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.question {
+    width: 90vw;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.question span {
+    color: rgb(208, 0, 255);
+}
+
+.question-sub {
+    font-size: large;
+}
+
+.contactus p {
+    color: white;
+
+}
+
+.contactus-container {
+    width: 90vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+
+    margin-bottom: 20px;
+}
+
+
+
+
+.contact-form {
+    background-color: var(--color-secondary);
+    color: white;
+    border-radius: 10px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+
+}
+
+.input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-wrapper .input {
+    width: 100%;
+    overflow: visible;
+    background-color: white;
+    border: none;
+
+}
+
+.contact-form .input,
+.btn {
+    border: none !important;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.contact-form .btn {
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    background: #6af780;
+    background: linear-gradient(195deg, rgba(106, 247, 128, 1) 0%, rgba(87, 162, 255, 1) 49%, rgba(196, 79, 255, 1) 89%);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: medium;
+    border: none;
+}
+
+/* Remove underline */
+.input .MuiFilledInput-underline:before,
+.input .MuiFilledInput-underline:after {
+    border-bottom: none !important;
+}
+
+/* Remove grey background */
+.input .MuiFilledInput-root {
+    background-color: transparent !important;
+}
+
+.input .MuiFilledInput-root:hover {
+    background-color: transparent !important;
+}
+
+.input .MuiInputLabel-root.Mui-focused {
+    color: #000000 !important;
+}
+
+
+
+@media (min-width: 768px) {
+    .contactus {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        background-color: var(--color-primary);
+    }
+
+    .contact-title {
+        font-size: clamp(5.5vw, 6.5vw, 6.75vw);
+        font-weight: bolder;
+        margin: 20px 0px;
+        color: white;
+    }
+
+    .contactus header {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .question {
+        width: 90vw;
+        text-align: center;
+        font-size: large;
+        font-weight: bolder;
+        margin-bottom: 0px;
+    }
+
+    .question span {
+        color: rgb(208, 0, 255);
+    }
+
+    .question-sub {
+        font-size: large;
+    }
+
+    .contactus p {
+        color: white;
+
+    }
+
+    .contactus-container {
+        width: 90vw;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 1;
+    }
+
+
+
+
+    .contact-form {
+        background-color: var(--color-secondary);
+        color: white;
+        border-radius: 10px;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 1;
+        padding: 20px 10px !important;
+
+    }
+
+    .input-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .input-wrapper .input {
+        width: 100%;
+        overflow: visible;
+        background-color: white;
+        border: none;
+
+    }
+
+    .contact-form .input,
+    .btn {
+        border: none !important;
+        border-radius: 10px;
+        width: 90%;
+    }
+
+    .contact-form .btn {
+        width: 90%;
+        border-radius: 10px;
+        border: none;
+        background: #6af780;
+        background: linear-gradient(195deg, rgba(106, 247, 128, 1) 0%, rgba(87, 162, 255, 1) 49%, rgba(196, 79, 255, 1) 89%);
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: medium;
+        border: none;
+    }
+
+    /* Remove underline */
+    .input .MuiFilledInput-underline:before,
+    .input .MuiFilledInput-underline:after {
+        border-bottom: none !important;
+    }
+
+    /* Remove grey background */
+    .input .MuiFilledInput-root {
+        background-color: transparent !important;
+    }
+
+    .input .MuiFilledInput-root:hover {
+        background-color: transparent !important;
+    }
+
+    .input .MuiInputLabel-root.Mui-focused {
+        color: #000000 !important;
+    }
+}

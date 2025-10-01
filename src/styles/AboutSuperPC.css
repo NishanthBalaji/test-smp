@@ -1,0 +1,161 @@
+.aboutsuper-pc {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--color-secondary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.aboutsuper-pc strong {
+    color: rgb(0, 255, 0);
+}
+
+.aboutsuper-pc header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+.aboutsuper-pc header h2 {
+    width: 100vw;
+    font-size: clamp(2.5rem, 1vw + 1rem, 1.5rem) !important;
+
+}
+
+.aboutsuper-pc .tagline-pc {
+    font-weight: bolder;
+    /* font-size: clamp(4vw, 4.5vw, 5vw); */
+    font-size: clamp(1rem, 1vw + 1.5rem, 2rem);
+    /* font-size: 20px; */
+    color: rgb(255, 255, 255);
+
+    padding-bottom: 10px;
+    /* background: #6af780;
+    background: linear-gradient(195deg, rgba(106, 247, 128, 1) 0%, rgba(87, 162, 255, 1) 49%, rgba(196, 79, 255, 1) 89%); */
+    /* background-color: var(--color-primary); */
+
+}
+
+.aboutsuper-pc .layout-pc {
+    width: 95vw;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex: 1;
+}
+
+.aboutsuper-text-pc {
+    width: 45vw;
+    /* width: 50% !important; */
+    padding-right: 50px;
+    padding-bottom: 30px;
+
+}
+
+.aboutsuper-text-pc p {
+    font-size: clamp(0.6rem, 1vw + 0.6rem, 1rem);
+}
+
+/*Card and Indicator combined */
+.container-pc {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+/* inside card */
+.feature-card-pc {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100% !important;
+    /* background-color: aqua; */
+    height: 50vh !important;
+}
+
+.aboutsuper-pc .css-1f8sh1y {
+
+    width: 40vw !important;
+    height: 50vh !important;
+    /* background-color: rgba(19, 24, 76); */
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    margin-bottom: 0px;
+    /* border: 2px solid rgb(255, 255, 0); */
+
+}
+
+.aboutsuper-pc .css-1m9128y {
+    margin-bottom: 20px;
+
+}
+
+/* Indicator */
+.aboutsuper-pc .css-1m9128y {
+    width: 40vw;
+    overflow: hidden;
+}
+
+
+
+.feature-text-pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.feature-img-pc {
+    padding-top: 40px;
+}
+
+.feature-card-pc img {
+    width: 150px;
+}
+
+
+.feature-card-pc .duogym {
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.container-pc .indicator-pc {
+    width: 10px;
+    height: 20px;
+    margin: 0 20px;
+    border-radius: 50%;
+    /* inactive dot */
+    transition: all 0.3s ease;
+    color: white;
+}
+
+/* Active dot with gradient */
+.container-pc .active-indicator-pc {
+    color: rgb(68, 255, 0);
+    transform: scale(1.25);
+}
+
+.view-price-pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 40vw !important;
+    margin-bottom: 40px !important;
+}

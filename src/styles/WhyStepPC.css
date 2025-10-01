@@ -1,0 +1,232 @@
+.whystepbtn {
+    height: 100vh !important;
+    background-color: var(--color-primary);
+}
+
+.whystep-pc {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.whystep-pc h2 {
+    font-size: clamp(1.5rem, 1vw + 1.2rem, 1.95rem) !important;
+    color: white;
+}
+
+.whystep-pc .sub-title-pc {
+    font-size: clamp(0.7rem, 1vw + 0.7rem, 0.9rem);
+    color: #dcdcdc;
+    text-align: center;
+    width: 70%;
+    margin: 0px;
+}
+
+.whystep-pc .whyus-pc {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50vw;
+    min-height: 92.5vh;
+    color: white;
+    /* border-right: 1px solid rgb(76, 76, 76); */
+}
+
+.whystep-pc .whydes-pc {
+    font-size: clamp(0.8rem, 1vw + 0.8rem, 1rem);
+    text-align: center;
+    width: 80%;
+}
+
+.whystep-pc .features-list-pc {
+    width: 95%;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    padding: 0px;
+    margin: 0px;
+    flex: 0.75;
+}
+
+.features-list-pc li {
+    background-color: #130e48;
+    width: 85%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgba(255, 221, 0, 0.295);
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+
+
+/* .whyus {
+    background-color: var(--color-primary);
+    width: 100vw;
+    min-height: 92.5vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.whyus header {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} */
+
+
+
+/* .whyus header p {
+    font-size: clamp(3.5vw, 3.75vw, 4vw);
+}
+
+.whyus strong {
+    color: rgb(246, 255, 0);
+} */
+
+/* .features-list {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex: 1;
+    padding: 0;
+} */
+
+.features-list-pc h4 {
+    color: rgb(255, 221, 0);
+    font-size: large;
+    font-weight: bolder;
+    margin: 12px 0px;
+    font-size: clamp(0.6rem, 1vw + 0.6rem, 0.8rem);
+}
+
+
+
+.features-list-pc p {
+    width: 100%;
+    font-size: clamp(0.7rem, 1vw + 0.7rem, 0.9rem);
+    margin: 0px 0px 10px 0px;
+    /* padding: 10px; */
+    overflow: hidden !important;
+}
+
+.smp-steps-pc {
+    width: 50vw;
+    min-height: 100vh;
+    background-color: #0a043c;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* .smp-steps-pc h2 {
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 700;
+    overflow: hidden !important;
+} */
+
+
+
+.steps-pc {
+    width: 95% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 60px;
+}
+
+.step-pc {
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+
+.steps-pc ul {
+    padding-left: 10px;
+
+    margin-bottom: 0px;
+
+}
+
+
+
+
+.step-pc li {
+    list-style: decimal inside;
+    border-left: 1px dashed #ffffff;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    list-style-type: disc;
+    font-size: clamp(0.7rem, 1vw + 0.7rem, 0.8rem) !important;
+
+}
+
+.last-list {
+    border-left: none !important;
+}
+
+.step-pc .note {
+    margin-top: 10px;
+    color: rgb(234, 0, 255);
+    padding-left: 20px;
+    width: 75%;
+}
+
+.logo-title-pc {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-title-pc img {
+    padding-left: 0px;
+}
+
+.logo-title-pc p {
+
+    padding-left: 10px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: clamp(0.7rem, 1vw + 0.7rem, 0.8rem)
+}
+
+
+.viewPrice-pc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a043c !important;
+}

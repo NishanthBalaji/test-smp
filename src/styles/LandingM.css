@@ -1,0 +1,123 @@
+.landingpage {
+    width: 100vw;
+    min-height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* background-color: rgb(5, 10, 43); */
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.landingpage strong {
+    color: rgb(255, 255, 255);
+}
+
+.landingpage .header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* background-color: rgb(208, 0, 255); */
+    background: #6af780;
+    background: linear-gradient(195deg, rgba(106, 247, 128, 1) 0%, rgba(87, 162, 255, 1) 49%, rgba(196, 79, 255, 1) 89%);
+    height: 30px;
+}
+
+.nav a {
+
+    /* font-size: clamp(3vw, 3.75vw, 3rem); */
+    font-size: clamp(0.7rem, 1vw + 0.7rem, 1.5rem);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.header img {
+    width: 100vw;
+}
+
+.landingpage .tagline {
+    /* border: 1px solid white; */
+    font-weight: bolder;
+    /* font-size: clamp(4vw, 4.5vw, 5vw); */
+    font-size: clamp(0.8rem, 1vw + 1rem, 1.5rem);
+    /* font-size: 20px; */
+    color: rgb(255, 255, 255);
+    min-height: 30px;
+}
+
+.landingpage .subheading,
+.extra-note {
+    /* font-size: clamp(3.5vw, 3.75vw, 4vw); */
+    font-size: clamp(0.7rem, 1vw + 0.7rem, 1.5rem);
+    /* font-size: 15px; */
+    text-align: center;
+    /* overflow-x: visible; */
+}
+
+.duologo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    /* margin-bottom: 80px; */
+    flex: 0.5;
+    overflow: hidden;
+    padding: 10px !important;
+}
+
+.duo {
+    width: 125px;
+}
+
+.arrow {
+    width: 50px;
+}
+
+.superduo {
+    width: 125px;
+}
+
+.landingpage-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    flex: 1;
+    /* overflow-x: visible; */
+
+}
+
+.landingpage .get-btn {
+    /* margin-top: 50px; */
+    width: 50vw;
+    will-change: transform;
+
+}
+
+.trust-text p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    width: 100vw;
+    margin: 0px;
+    height: 50px;
+    background: #6af780;
+    background: linear-gradient(195deg, rgba(106, 247, 128, 1) 0%, rgba(87, 162, 255, 1) 49%, rgba(196, 79, 255, 1) 89%);
+    font-size: clamp(3.5vw, 3.75vw, 4vw);
+}

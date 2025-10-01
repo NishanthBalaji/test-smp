@@ -1,0 +1,179 @@
+.status {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.svg-text {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 1;
+}
+
+.status-button {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.status-button .green-btn {
+    width: 90vw;
+    height: 5vh;
+    background-color: #7ac142;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.status-button .red-btn {
+    width: 90vw;
+    height: 5vh;
+    background-color: #ff0101;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* ✅ SUCCESS (Green Checkmark) */
+.wrapper {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.checkmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    stroke: #7ac142;
+    fill: none;
+    animation: stroke-success 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 5;
+    stroke: #7ac142;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #7ac142;
+    animation: fill-success 0.4s ease-in-out 0.4s forwards,
+        scale-success 0.3s ease-in-out 0.9s both;
+}
+
+.checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke-success 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+/* Animations for success */
+@keyframes stroke-success {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale-success {
+
+    0%,
+    100% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill-success {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #7ac142;
+    }
+}
+
+/* ❌ FAILURE (Red Cross) */
+
+.crossmark {
+    width: 280px;
+    height: 280px;
+    stroke: #ff0000;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px #ff0000;
+    border-radius: 50%;
+    animation: fill-fail 0.4s ease-in-out 0.4s forwards,
+        scale-fail 0.3s ease-in-out 0.9s both;
+}
+
+.crossmark__circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 1;
+    stroke-miterlimit: 10;
+    stroke: #ff0000;
+    fill: none;
+    animation: stroke-fail 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.crossmark__cross {
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    stroke-width: 5;
+    stroke: #ff0000;
+    stroke-linecap: round;
+    animation: stroke-fail 0.3s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.crossmark__cross--left {
+    animation-delay: 0.8s;
+}
+
+.crossmark__cross--right {
+    animation-delay: 1.1s;
+}
+
+/* Animations for failure */
+@keyframes stroke-fail {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale-fail {
+
+    0%,
+    100% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill-fail {
+    100% {
+        box-shadow: inset 0px 0px 0px 30px #ff0000;
+    }
+}
